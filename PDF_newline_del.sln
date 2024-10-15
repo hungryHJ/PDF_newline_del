@@ -5,6 +5,16 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF_newline_del", "PDF_newline_del\PDF_newline_del.csproj", "{C2197CE9-AA4B-4CA4-B86E-C42115C5A75E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{C2F4F7D9-A310-4CED-B007-6752EF9FFA45}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme_img", "readme_img", "{BBEBB974-55DE-4AF6-A0F1-87ADB2472366}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Pictures\PicPick\screenshot1.png = ..\..\..\Pictures\PicPick\screenshot1.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBEBB974-55DE-4AF6-A0F1-87ADB2472366} = {C2F4F7D9-A310-4CED-B007-6752EF9FFA45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DB7F02C-E4C9-45D5-AE6F-B82A0B1AFC6B}
