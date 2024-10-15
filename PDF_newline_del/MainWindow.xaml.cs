@@ -38,6 +38,7 @@ namespace PDF_newline_del
             if (btn_cpy != null)
             {
                 btn_cpy.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFDDDDDD"));
+                btn_cpy.Content = "Copy to Clip board";
             }
             
 
@@ -66,6 +67,7 @@ namespace PDF_newline_del
         {
             Clipboard.SetText(StringFromRichTextBox(rich_output));
             btn_cpy.Background = new SolidColorBrush(Colors.Green);
+            btn_cpy.Content = "Copied!";
         }
     }
 }

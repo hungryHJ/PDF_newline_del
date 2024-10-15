@@ -26,7 +26,7 @@
                 </FlowDocument>
             </RichTextBox>
             <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ko-kr" Text="OUTPUT"/></TextBlock>
-            <Button x:Name="btn_cpy" Content="Copy" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="30" Width="320" Click="Button_Click"/>
+            <Button x:Name="btn_cpy" Content="Copy to Clip board" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="30" Width="320" Click="Button_Click"/>
         </Grid>
     </Grid>
 </Window>
