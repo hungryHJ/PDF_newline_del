@@ -1,0 +1,32 @@
+﻿<Window x:Class="PDF_newline_del.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PDF_newline_del"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid Margin="0,0,400,0">
+            <RichTextBox x:Name="rich_input" Margin="0,45,0,0" TextChanged="rich_input_TextChanged">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text=""/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ko-kr" Text="INPUT"/></TextBlock>
+        </Grid>
+        <Grid Margin="400,0,0,0">
+            <RichTextBox x:Name="rich_output" Margin="0,45,0,0" IsReadOnly="True">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text=""/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ko-kr" Text="OUTPUT"/></TextBlock>
+            <Button x:Name="btn_cpy" Content="Copy" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="30" Width="320" Click="Button_Click"/>
+        </Grid>
+    </Grid>
+</Window>
