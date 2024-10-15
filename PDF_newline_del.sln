@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme_img", "readme_img", "{BBEBB974-55DE-4AF6-A0F1-87ADB2472366}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme_img", "readme_img", "{9B0C6BC9-E8C3-4C22-8260-735DE71AFA78}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Pictures\PicPick\screenshot1.png = ..\..\..\Pictures\PicPick\screenshot1.png
+		readme_img\screenshot1.png = readme_img\screenshot1.png
 	EndProjectSection
 EndProject
 Global
@@ -30,7 +30,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BBEBB974-55DE-4AF6-A0F1-87ADB2472366} = {C2F4F7D9-A310-4CED-B007-6752EF9FFA45}
+		{9B0C6BC9-E8C3-4C22-8260-735DE71AFA78} = {C2F4F7D9-A310-4CED-B007-6752EF9FFA45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DB7F02C-E4C9-45D5-AE6F-B82A0B1AFC6B}
